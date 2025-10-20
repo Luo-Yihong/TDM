@@ -1052,7 +1052,7 @@ def main():
             
             beta = sigmas_new ** 2 - ( alphas_new / alphas * sigmas ) ** 2
             beta = beta ** 0.5
-            mixed_noise = model_noise / alphas * alphas_new + beta * noise
+            mixed_noise = model_noise / alphas * alphas_new * sigmas + beta * noise
             mixed_noise = mixed_noise / sigmas_new
             return mixed_noise
             
