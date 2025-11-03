@@ -1145,6 +1145,7 @@ def main():
                         noisy_latents[i] = noisy_imgs_list[ind_t[i]][i]
                     noise_g = torch.randn_like(latents)
                     timesteps_g = ind_t * total_steps // 4 - 1
+                    timesteps_mid_ori = timesteps_g -  total_steps // 4 + 1
                     timesteps_mid = timesteps_mid_ori.clone()
                     if args.use_randmid: # This can regularize the generator.
                         for i in range(latents.shape[0]):
