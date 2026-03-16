@@ -10,6 +10,7 @@ This is the Official Repository of "[Learning Few-Step Diffusion Models by Traje
 
   
 ## 🔥News
+- (2026/03) We release pre-trained TDM LoRA for SD-3.5M.
 - (2025/07) We release the most compact demo of training TDM on PixArt-512. 
 - (2025/06) TDM is accepted to ICCV 2025 🎉!
 
@@ -139,6 +140,7 @@ export_to_video(frames, "output-TDM.mp4", fps=8)
 ```
 ## 🔥 Pre-trained Models
 We release a bucket of TDM-LoRA. Please enjoy it!
+- [TDM-SD3.5-LoRA](https://huggingface.co/Luo-Yihong/TDM_sd3-5_lora)
 - [TDM-SD3-LoRA](https://huggingface.co/Luo-Yihong/TDM_sd3_lora)
 - [TDM-CogVideoX-2B-LoRA](https://huggingface.co/Luo-Yihong/TDM_CogVideoX-2B_LoRA)
 - [TDM-Dreamshaper-LoRA](https://huggingface.co/Luo-Yihong/TDM_dreamshaper_LoRA)
